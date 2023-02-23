@@ -1,4 +1,4 @@
-FROM centos:centos7.9.2009
+FROM devisty/xssh:v2
 EXPOSE 80
 
 COPY . /app
